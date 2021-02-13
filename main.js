@@ -1,4 +1,5 @@
 var candidates = document.querySelectorAll('.candidate_card');
+var message = "";
 const cleanSelection = () => {
     candidates.forEach(element => {
         element.classList.remove('selected')
