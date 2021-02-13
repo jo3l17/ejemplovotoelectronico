@@ -1,0 +1,66 @@
+.main_color{
+    color: $primary_color;
+}
+.main_color_bg{
+    background-color: $primary_color;
+    color: $white;
+}
+.main_footer{
+    height: 50px;
+}
+.menu_button{
+    position: relative;
+    height: 50px;
+    i{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+}
+.candidate_img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.logo_image{
+    width: 90px;
+    height: 90px;
+    img{
+        object-fit: contain;
+    }
+}
+.candidate_card{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px;
+    border-left: 8px solid $primary_color;
+    color:black;
+    background-color: $white;
+    &:hover,&.selected{
+        color: $white;
+        background-color: $primary_color;
+        cursor: pointer;
+    }
+}
+.text_candidate{
+    text-align: center;
+    h2{
+        font-size: 1.2em;
+    }
+    p{
+        margin: 0;
+    }
+}
+.responsive_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn_votar{
+    background-color: $primary_color;
+    color: $white;
+    font-size: 1.5em;
+    padding: 10px 80px;
+    box-shadow: 5px 1px 5px grey;
+}
